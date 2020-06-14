@@ -1,12 +1,12 @@
 # OWMClient
 
-A Swift client for the Open Whether Map API.
+A Swift client for the Open Weather Map API.
 
 If you don't have an API key yet:
 
     https://home.openweathermap.org/users/sign_up
 
-Requires the Open Whether Map API key to saved at:
+Requires the Open Weather Map API key to saved at:
 
     .apiKey
 
