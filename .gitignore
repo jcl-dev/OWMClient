@@ -1,0 +1,6 @@
+.DS_Store
+.apiKey
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
