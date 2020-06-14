@@ -11,8 +11,9 @@ final class OWMClientTests: XCTestCase {
             .joined(separator: "/")
             .dropFirst()
             + "/.apiKey"
-        let hiddenAPIKey = try String(contentsOfFile: String(hiddenAPIKeyPath)).filter { $0 != "\n" }
-        let client = OWMClient(apiKey: String(hiddenAPIKey))
+        let hiddenAPIKey = try String(contentsOfFile: String(hiddenAPIKeyPath))
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        let client = OWMClient(apiKey: hiddenAPIKey)
         let boiseTemp = try client.getTemp(city: "Boise")
         XCTAssert((-25...120).contains(boiseTemp))
     }
@@ -20,5 +21,4 @@ final class OWMClientTests: XCTestCase {
     static var allTests = [
         ("testBoiseTemp", testBoiseTemp),
     ]
-    
 }
