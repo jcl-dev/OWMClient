@@ -15,5 +15,5 @@ To run the `owm` executable on the command line (which diffs the temp of the two
 
 You can watch the development of this client:
 
-Part 1: https://youtu.be/okv2F5vNIYs
-Part 2: https://youtu.be/cLAo98Ib5U4
+- Part 1: https://youtu.be/okv2F5vNIYs
+- Part 2: https://youtu.be/cLAo98Ib5U4
