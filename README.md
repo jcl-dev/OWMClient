@@ -4,7 +4,7 @@ This is an example client only... not a fully-featured client.
 
 If you don't have an secret API key yet... https://home.openweathermap.org/users/sign_up
 
-Save the API key in the root level of your OWMClient directory like this:
+Save your API key in the root level of your OWMClient directory like this:
 
     cd OWMClient
     echo "YOUR_SECRECT_API_KEY" > .apiKey
