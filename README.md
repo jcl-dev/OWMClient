@@ -2,15 +2,9 @@
 
 A Swift client for the Open Weather Map API.
 
-If you don't have an API key yet:
+If you don't have an API key yet... https://home.openweathermap.org/users/sign_up
 
-    https://home.openweathermap.org/users/sign_up
-
-Save the API key in the root level of your OWMClient directory as:
-
-    .apiKey
-
-To save the key for the first time:
+Save the API key in the root level of your OWMClient directory like this:
 
     cd OWMClient
     echo "SECRECT_API_KEY" > .apiKey
