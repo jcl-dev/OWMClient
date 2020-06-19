@@ -15,6 +15,6 @@ To save the key for the first time:
     cd OWMClient
     echo "SECRECT_API_KEY" > .apiKey
     
-To run the owm executable on the command line (which diffs the temp of the two citys you pass in):
+To run the owm executable on the command line (which diffs the temp of the two cities you pass in):
     
     swift run owm `cat .apiKey` Boise Chicago
